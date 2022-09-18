@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="27572163-670d-4f3c-b1f3-cd8fc43b7081" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/dev/src/plugins/mew/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/src/plugins/mew/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/src/plugins/mew/mew-app.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/src/plugins/mew/mew.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/src/plugins/mew/src/assets/bg_bar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/src/plugins/mew/src/assets/bg_foo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/src/plugins/mew/src/components/btn/btn.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/src/plugins/mew/src/components/btn/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/src/plugins/mew/src/components/btn/scss/btn.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/src/plugins/mew/src/components/field/components/check.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/src/plugins/mew/src/components/field/components/dropList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/src/plugins/mew/src/components/field/components/input.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/src/plugins/mew/src/components/field/components/labelTag.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/src/plugins/mew/src/components/field/components/mewLabel_bak.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/src/plugins/mew/src/components/field/field.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/src/plugins/mew/src/components/field/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/src/plugins/mew/src/components/field/mixins/inits.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/src/plugins/mew/src/components/field/mixins/types.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/src/plugins/mew/src/components/field/mixins/validate.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/src/plugins/mew/src/components/fit/fit.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/src/plugins/mew/src/components/fit/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/src/plugins/mew/src/components/flex/flex.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/src/plugins/mew/src/components/flex/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/src/plugins/mew/src/components/ico/ico.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/src/plugins/mew/src/components/ico/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/src/plugins/mew/src/components/vid/components/clock.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/src/plugins/mew/src/components/vid/components/control.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/src/plugins/mew/src/components/vid/components/err.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/src/plugins/mew/src/components/vid/components/info.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/src/plugins/mew/src/components/vid/components/mxvideo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/src/plugins/mew/src/components/vid/components/playBtn.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/src/plugins/mew/src/components/vid/components/rates.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/src/plugins/mew/src/components/vid/components/screen.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/src/plugins/mew/src/components/vid/components/setting.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/src/plugins/mew/src/components/vid/components/timeline.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/src/plugins/mew/src/components/vid/components/volume.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/src/plugins/mew/src/components/vid/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/src/plugins/mew/src/components/vid/mixins/codec.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/src/plugins/mew/src/components/vid/vid.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/src/plugins/mew/src/components_local/color/color.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/src/plugins/mew/src/components_local/color/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/src/plugins/mew/src/components_local/fieldWrapper/fieldWrapper.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/src/plugins/mew/src/components_local/fieldWrapper/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/src/plugins/mew/src/components_local/matte/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/src/plugins/mew/src/components_local/matte/matte.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/src/plugins/mew/src/components_local/notes/colors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/src/plugins/mew/src/components_local/notes/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/src/plugins/mew/src/components_local/notes/mixin/props.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/src/plugins/mew/src/components_local/notes/notes.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/src/plugins/mew/src/components_local/notes/toast.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/src/plugins/mew/src/components_local/utils/spinner.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/src/plugins/mew/src/directive/lazy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/src/plugins/mew/src/scss/attributes/border.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/src/plugins/mew/src/scss/attributes/color.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/src/plugins/mew/src/scss/attributes/flex.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/src/plugins/mew/src/scss/attributes/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/src/plugins/mew/src/scss/attributes/padding&amp;margin.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/src/plugins/mew/src/scss/attributes/reset.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/src/plugins/mew/src/scss/attributes/test.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/src/plugins/mew/src/scss/attributes/text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/src/plugins/mew/src/scss/attributes/theme.dark.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/src/plugins/mew/src/scss/attributes/theme.light.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/src/plugins/mew/src/scss/attributes/width&amp;height.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/src/plugins/mew/src/scss/icon/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/src/plugins/mew/src/scss/icon/mew.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/src/plugins/mew/src/scss/transition.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/src/router/guard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/src/router/router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/src/router/routes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/src/views/home/index.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2EuNt4vzli3ifhJZovesgHlhnbu" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/dev/plugins" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="D:\ISD\WebStorm 2020.2.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Desktop\Git\NovaGrand\Strategy\dev\plugins" />
+      <recent name="D:\Desktop\Git\NovaGrand\Strategy\dev\src" />
+      <recent name="D:\Desktop\Git\NovaGrand\Strategy\dev2" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Desktop\Git\NovaGrand\Strategy\dev\src" />
+      <recent name="D:\Desktop\Git\NovaGrand\Strategy\dev2\src" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="27572163-670d-4f3c-b1f3-cd8fc43b7081" name="Default Changelist" comment="" />
+      <created>1663441721027</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1663441721027</updated>
+      <workItem from="1663441722097" duration="607000" />
+      <workItem from="1663444374673" duration="606000" />
+      <workItem from="1663445206636" duration="1398000" />
+      <workItem from="1663452826137" duration="3376000" />
+      <workItem from="1663457285694" duration="281000" />
+      <workItem from="1663458186697" duration="880000" />
+      <workItem from="1663460742082" duration="55000" />
+      <workItem from="1663509312811" duration="492000" />
+      <workItem from="1663510245965" duration="327000" />
+      <workItem from="1663518415033" duration="791000" />
+      <workItem from="1663519379582" duration="213000" />
+      <workItem from="1663521222203" duration="29000" />
+      <workItem from="1663522778187" duration="167000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1061" y="456" key="FileChooserDialogImpl" timestamp="1663521248921">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1061" y="456" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1663521248921" />
+  </component>
+</project>

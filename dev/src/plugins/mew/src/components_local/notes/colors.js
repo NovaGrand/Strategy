@@ -1,0 +1,63 @@
+export default {
+    red:{
+        fontColor:'#e00000',
+        backgroundColor:'rgba(255,234,234,.92)'
+    },
+    pink:{
+        fontColor:'#d600a7',
+        backgroundColor:'rgba(255,224,242,.92)'
+    },
+    purple:{
+        fontColor:'#a000b2',
+        backgroundColor:'rgba(250,220,255,.92)'
+    },
+    orange:{
+        fontColor:'#ffffff',
+        backgroundColor:'rgba(255,110,0,.92)'
+    },
+    cyan:{
+        fontColor:'#005991',
+        backgroundColor:'rgba(230,252,255,.92)'
+    },
+    lake:{
+        fontColor:'#005b49',
+        backgroundColor:'rgba(224,255,249,.92)'
+    },
+    green:{
+        fontColor:'#007d03',
+        backgroundColor:'rgba(236,255,236,.92)'
+    },
+    blue: {
+        fontColor:'#0058c4',
+        backgroundColor:'rgba(220,235,255,.92)'
+    },
+    indigo: {
+        fontColor:'#003860',
+        backgroundColor:'rgba(220,235,255,.92)'
+    },
+    grey:{
+        fontColor:'#ffffff',
+        backgroundColor:'rgba(74,101,127,.92)'
+    },
+    black:{
+        fontColor:'#ffffff',
+        backgroundColor:'rgba(30,30,30,.9)'
+    },
+    yellow:{
+        fontColor:'#aa5800',
+        backgroundColor:'rgba(255,253,225,.92)'
+    },
+    golden:{
+        fontColor:'#844c03',
+        backgroundColor:'rgba(255,238,205,.92)'
+    },
+    catskill:{
+        fontColor:'#2e3f50',
+        backgroundColor:'rgba(238,243,246,.92)'
+    },
+    white:{
+        fontColor:'black',
+        backgroundColor:'rgba(255,255,255,.92)',
+    },
+
+}

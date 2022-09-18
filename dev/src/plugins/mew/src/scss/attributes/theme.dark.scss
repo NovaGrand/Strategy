@@ -1,0 +1,141 @@
+body[mew-theme="dark"]{
+  [red]{  // OK
+    &[lighten]{
+      --c: 180,0,0
+    }
+    --c: 200,20,20;
+    &[darken]{
+      --c: 220,30,30
+    }
+  }
+  [pink]{  // OK
+    &[lighten]{
+      --c: 160,0,125;
+    }
+    --c:198,0,155;
+    &[darken]{
+      --c: 234,16,205;
+    }
+  }
+  [purple]{ // OK
+    &[lighten]{
+      --c: 135,0,160
+    }
+    --c:180,0,200;
+    &[darken]{
+      --c: 222,29,255
+    }
+  }
+  [orange]{ //OK
+    &[lighten]{
+      --c: 205,123,0;
+    }
+    --c: 255,155,0;
+    &[darken]{
+      //--c: 255,185,80;
+      --c: 255,135,0;
+    }
+  }
+  [cyan]{ // OK
+    &[lighten]{
+      --c: 0,160,190; &[bg]{ color:white }
+    }
+    --c: 0,190,220;
+    &[darken]{
+      --c: 0,220,250; &[bg]{color:black}
+    }
+  }
+  [green]{ // OK
+    --c: 0,195,0;&[bg]{ color:black }
+    &[lighten]{
+      --c: 0,210,0; &[bg]{ color:black }
+    }
+    &[darken]{
+      --c: 0,175,0;&[bg]{ color:black }
+    }
+  }
+  [blue]{ // OK
+    &[lighten]{
+      --c: 0,110,180;
+    }
+    --c: 0,140,230;
+    //--c: 20,160,240;
+    &[darken]{
+      --c:0,165,242;
+    }
+  }
+  [indigo]{ // OK
+    &[lighten]{
+      --c:0,108,170;
+    }
+    --c: 0,124,196;
+    &[darken]{
+      --c:0,134,211;
+    }
+  }
+  [grey]{ // OK
+    --c: 145,152,170;
+    &[lighten]{
+      --c: 110,120,140; }
+    &[darken]{
+      --c: 179,185,200;
+      &[bg]{ color:black } }
+  }
+  [black]{ // OK
+    &[lighten]{
+      --c: 180,180,180;
+    }
+    --c: 220,220,220;
+    &[darken]{
+      --c: 255,255,255;
+    }
+    &[bg]{
+      color: black;
+    }
+  }
+  [yellow]{ // OK
+    &[lighten]{
+      --c: 180,170,0; &[bg]{ color:white }
+    }
+    --c: 200,190,0; &[bg]{ color:white }
+    &[darken]{
+      --c: 220,210,0; &[bg]{ color:black }
+    }
+  }
+  [catskill]{ // OK
+    &[lighten]{
+      --c: 85,100,110;
+    }
+    --c:104,122,132;
+    &[darken]{
+      --c: 114,134,145;
+    }
+  }
+  [lake]{ // OK
+    &[lighten]{
+      --c: 50,145,125;&[bg]{ color:white }
+    }
+    --c: 52,175,150; &[bg]{ color:white }
+    &[darken]{
+      --c: 60,205,175;&[bg]{ color:black }
+    }
+  }
+  [white]{ // OK
+    &[lighten]{
+      --c: 40,40,40;
+    }
+    --c: 50,50,50;
+    &[darken]{
+      --c: 60,60,60
+    }
+  }
+  [golden]{ // OK
+    &[lighten]{
+      --c:160,126,60; &[bg]{ color:white;}
+    }
+    --c: 196,160,88; &[bg]{ color:white;text-shadow: 0 0 1px black; }
+    &[darken]{
+      --c: 242,205,121; &[bg]{ color:black;text-shadow: 0 0 1px white; }
+    }
+  }
+}

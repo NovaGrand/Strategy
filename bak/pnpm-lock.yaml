@@ -1,8 +1,8 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@babylonjs/core': ^5.24.0
   '@vitejs/plugin-vue': ^3.1.0
+  babylonjs: ^5.24.0
   pinia: ^2.0.22
   sass: ^1.54.9
   vite: ^3.1.0
@@ -10,7 +10,7 @@ specifiers:
   vue-router: '4'
 
 dependencies:
-  '@babylonjs/core': 5.24.0
+  babylonjs: 5.24.0
   pinia: 2.0.22_vue@3.2.39
   vue: 3.2.39
   vue-router: 4.1.5_vue@3.2.39
@@ -44,10 +44,6 @@ packages:
       '@babel/helper-string-parser': 7.18.10
       '@babel/helper-validator-identifier': 7.19.1
       to-fast-properties: 2.0.0
-
-  /@babylonjs/core/5.24.0:
-    resolution: {integrity: sha512-ubVT1KM0sWnN8PDQaaZngzVNDjqfkSoT6RUcDBuZgw5W+f1zRynDoh+QRpHQev0T1EMItt6ehusc0eWgUqxLgA==}
-    dev: false
 
   /@esbuild/linux-loong64/0.15.7:
     resolution: {integrity: sha512-IKznSJOsVUuyt7cDzzSZyqBEcZe+7WlBqTVXiF1OXP/4Nm387ToaXZ0fyLwI1iBlI/bzpxVq411QE2/Bt2XWWw==}
@@ -153,6 +149,11 @@ packages:
       normalize-path: 3.0.0
       picomatch: 2.3.1
     dev: true
+
+  /babylonjs/5.24.0:
+    resolution: {integrity: sha512-NABEhPzSbC2bMlCwHHPmZ4xPj/bP1MNs7p6B10QA0cBupxumjyYl842rTweUUI9EsGm6Zh+N83MNQAobY2N1tQ==}
+    requiresBuild: true
+    dev: false
 
   /binary-extensions/2.2.0:
     resolution: {integrity: sha512-jDctJ/IVQbZoJykoeHbhXpOlNBqGNcwXJKJog42E5HDPUwQTSdjCHdihjj0DlnheQ7blbT6dHOafNAiS8ooQKA==}

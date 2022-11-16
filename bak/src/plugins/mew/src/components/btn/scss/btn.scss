@@ -1,0 +1,86 @@
+button.mew-btn{
+  font-family:"PingFang SC",Arial,"Microsoft YaHei","微软雅黑","Hiragino Sans GB",sans-serif;
+  position: relative;
+  user-select: none;
+  cursor: pointer;
+  overflow: unset;
+  overflow: hidden;
+  line-height: var(--lh,1.45);
+  letter-spacing: var(--xls,1px);
+  // 默认边距
+  --pt:6;--pb:4;--pl:25;--pr:26;
+  // 默认倒角
+  --bdrd:.2em;
+  // 边框颜色深度调整
+  --adjust-border:0.03;
+  &:not(.vanilla,[card],[border],[ba],[bt],[br],[bb],[bl],[ba-xs],[ba-sm],[ba-md],[ba-lg],[ba-xl],[bt-xs],[bt-sm],[bt-md],[bt-lg],[bt-xl],[br-xs],[br-sm],[br-md],[br-lg],[br-xl],[bb-xs],[bb-sm],[bb-md],[bb-lg],[bb-xl],[bl-xs],[bl-sm],[bl-md],[bl-lg],[bl-xl]){
+    // 默认样式添加内阴影
+    &::before{
+      position: absolute;left: 0;top: 0;width: 100%;height: 100%;z-index: 9999;content: '';display: block;
+      box-shadow:inset 0 -0.6em 2em -0.35em rgba(0,0,0,0.1),inset 0 0.6em 2em -0.3em rgba(255,255,255,0.15),inset 0 0 0em 0.05em rgba(255,255,255,0.12);
+    }
+  }
+  &:hover:not(.vanilla){
+    filter: saturate(1.4);
+  }
+  &:active{
+    filter: saturate(1);
+  }
+  // 点击后的波纹效果
+  &:not([card],.vanilla,.disabled){
+    @keyframes foo {
+      0%{box-shadow: 0 0 0 0 rgba(var(--c), calc(0.04 * var(--ac)));}
+      100%{box-shadow: 0 0 0 4px rgba(0,0,0,0);}
+    }
+    @keyframes bar {
+      0%{box-shadow: 0 0 0 0 rgba(var(--c), calc(0.04 * var(--ac)));}
+      100%{box-shadow: 0 0 0 4px rgba(0,0,0,0);}
+    }
+    &.foo{
+      animation: foo .22s linear;
+    }
+    &.bar{
+      animation: bar .22s linear;
+    }
+  }
+}
+
+button.mew-btn{
+  &.disabled{
+    filter: saturate(0) brightness(1.4)!important;
+    opacity: .3!important;
+    cursor: default;
+  }
+}
+button.mew-btn[card]{
+  box-shadow:  0 1px 1px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3);
+  transition: box-shadow .01s linear;
+  &:active:not(.disabled){
+    transform: translateY(.5px);
+    box-shadow: 0 0 1px rgba(0,0,0,.1), 0 1px 2px rgba(0,0,0,.3);
+  }
+}
+button.mew-btn.vanilla{
+  --pt:5;--pb:5;
+  overflow: hidden;
+  box-shadow:0 0 0 .5px rgba(0,0,0,.5), 1px 1px 10px rgba(0,0,0,.08);
+  &::after{
+    position: absolute;left: 0;top: 0;width: 100%;height: 100%;content: '';display: block;z-index: 9999;
+    background: linear-gradient(0deg,rgba(0,0,0,.2) 20% ,rgba(255,255,255,0.4) 100%);
+    box-shadow: 0 1px 1px inset rgba(255,255,255,.4),0 -1px 1px inset rgba(0,0,0,.3),0 0 1px rgba(0,0,0,.3);
+  }
+  &:hover{
+    &::after{
+      background: linear-gradient(0deg,rgba(0,0,0,.15) 15% ,rgba(255,255,255,0.4) 100%);
+    }
+  }
+  &:active:not(.disabled){
+    transform: translateY(.5px);
+    box-shadow: 0 0 0 .5px rgba(0,0,0,.4), 1px 1px 8px rgba(0,0,0,.08),0 0 1.5px inset rgba(0,0,0,.6);
+    &::after{
+      transform: translateY(.5px);
+      background: linear-gradient(0deg,rgba(0,0,0,.2) 20% ,rgba(255,255,255,0.25) 100%);
+      box-shadow: 0 1px 1px inset rgba(255,255,255,.2),0 -1px 1px inset rgba(0,0,0,.3),0 0 1px rgba(0,0,0,.3);
+    }
+  }
+}

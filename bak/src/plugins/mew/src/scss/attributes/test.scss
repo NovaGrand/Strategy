@@ -1,0 +1,120 @@
+[tag-bar]{
+  display: block;
+  position: relative;
+  //padding-left: 30px;
+  &::before{
+    //position: absolute;
+    //left: 0;top: calc(50% - .22em);
+    //width: 20px;height: 8px;background-color: #bb1c1c;
+    content: '▬';display: inline-block;
+    color: #bb1c1c;
+    vertical-align: top;
+    position: relative;
+    font-weight: bold;
+    transform: translateY(-.2em) scaleY(2) scaleX(.9);
+    transform-origin: left center;
+    margin-right: .3em;
+  }
+}
+[tag-dash]{
+  position: relative;
+  --color:rgba(0,0,0,.7);
+  &::before{
+    position: absolute;left: -1px;top: calc(50% - .35em);content: '';display: inline-block;
+    width: .5px;height: .3em;background-color: var(--color);
+  }
+  &::after{
+    position: absolute;left: -1px;top: calc(100% - .65em);content: '';display: inline-block;
+    width: .5px;height: .3em;background-color: var(--color);
+  }
+}
+
+[pointer]{
+  position: relative;
+  cursor: pointer;
+  &:hover{
+    &::after{
+      border-radius: inherit;
+      position: absolute;content: '';
+      left: -.5px;top: -.5px;
+      width: calc(100% + 1px);height: calc(100% + 1px);
+      //border: .5px solid rgba(0,0,0,.1);
+    }
+  }
+  &:active{
+    &::after{
+      background-color: rgba(250,250,250,.2);
+    }
+  }
+}
+
+
+
+//调试属性
+[foo]{
+  //--f:rgba(0,0,0,.1);--o:rgba(173,230,255,.3);
+  //background: linear-gradient(45deg, var(--f) 25%, var(--o) 0, var(--o) 50%, var(--f) 0, var(--f) 75%, var(--o) 0);
+  //background-size:5px 5px;
+  background: url("../../assets/bg_foo.png");
+  background-size:5px 5px;
+  //border: .5px solid #c8d7e4;
+  border: .5px solid rgba(0,0,0,.14);
+}
+[bar]{
+  position: relative;
+  &::before{
+    position: absolute;content:'';display: block;top: 0;left: 0;width: 100%;height: 100%;
+    background: url("../../assets/bg_bar.png");
+    background-size:5px 5px;
+  }
+  //border: .5px solid #f1dadb;
+  border: .5px solid rgba(0,0,0,.14);
+}
+[baz]{
+  //border: 1px solid #d8d8d8;
+  border: .5px solid rgba(0,0,0,.14);
+  &::after{
+    position: absolute;content:'';display: block;top: 0;left: 0;width: 100%;height: 100%;
+    --t1:rgba(0,0,0,.08);--t2:rgba(255,255,255,.1);
+    background: linear-gradient(-45deg, var(--t1) 25%, var(--t2) 0, var(--t2) 50%, var(--t1) 0, var(--t1) 75%, var(--t2) 0);
+    background-size:10px 10px;
+  }
+}
+[ect]{
+  --t3:rgba(0,0,0,.1);--t4:rgba(173,230,255,.3);
+  background: linear-gradient(90deg, var(--t3) 25%, var(--t4) 0, var(--t4) 50%, var(--t3) 0, var(--t3) 75%, var(--t4) 0);
+  background-size:5px 5px;
+  //border: 1px solid #d8d8d8;
+  border: .5px solid rgba(0,0,0,.14);
+}
+[foo][bar]{
+  background: rgba(173,230,255,.4);
+  &::before{
+    background: none
+  }
+  border: none;
+}
+[foo][baz]{
+  color: white;
+  background: linear-gradient(-45deg, #C90000, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: foobaz 15s ease infinite;
+  @keyframes foobaz {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+}
+//其他属性
+[hump]{
+  letter-spacing: 1px;
+  text-shadow: 0 .5px 0 rgb(150,150,150), 0 1px 0 rgb(145,145,145), 0 1.5px 0 rgb(140,140,140), 0 2px 0 rgb(135,135,135), 0 2.5px 0 rgb(130,130,130), 0 3px 0 rgb(125,125,125), 0 3.5px 0 rgb(120,120,120), 0 4px 0 rgb(115,115,115), 0 4.5px 0 rgb(110,110,110), 0 5px 0 rgb(105,105,105), 0 5.5px 0 rgb(105,105,105), 0 6px 0 rgb(100,100,100), 0 6.5px 0 rgb(95,95,95), 0 7px 0 rgb(90,90,90),0 7.5px 0 rgb(70,70,70),0 8px 0 rgb(60,60,60),0 8.5px 0 rgb(55,55,55), 0 9px 5px rgb(30,30,30);
+}
+
+

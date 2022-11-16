@@ -132,7 +132,7 @@ div.mew-field{
             position: absolute;right: 0;top:0;
             width: 100%;height: 100%;
             content: var(--errorMessage);
-            display: flex;align-items: center;justify-content: end;
+            display: flex;align-items: center;justify-content: flex-end;
             transform: scale(.7);transform-origin: 90% 58%;
             font-size: .5em;
             color: #d60000;
